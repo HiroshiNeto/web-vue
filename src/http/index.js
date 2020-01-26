@@ -6,7 +6,7 @@ Vue.use(VueResource)
 
 const http = Vue.http
 
-http.api = 'http://localhost:3000/api'
+http.api = 'https://web-hiroshineto.herokuapp.com/api'
 
 http.interceptors.push(interceptors)
 
